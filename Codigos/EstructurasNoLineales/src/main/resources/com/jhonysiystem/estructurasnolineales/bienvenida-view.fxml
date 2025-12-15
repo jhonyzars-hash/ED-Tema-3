@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.jhonysiystem.estructurasnolineales.controller.BienvenidaController"
+            prefWidth="600" prefHeight="400">
+
+    <Label layoutX="165" layoutY="120"
+           text="Bienvenido a Estructuras No Lineales"
+           style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+
+    <Label layoutX="205" layoutY="160"
+           text="Presiona para continuar"/>
+
+    <Button layoutX="255" layoutY="210"
+            text="Entrar"
+            onAction="#onEntrar"
+            prefWidth="90"/>
+</AnchorPane>
